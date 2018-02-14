@@ -19,54 +19,64 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: References/references.bib
-Repeated entry---line 246 of file References/references.bib
- : @incollection{werry2001can
- :                           ,
+I was expecting a `,' or a `}'---line 192 of file References/references.bib
+ :  
+ :  year={2012}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 198 of file References/references.bib
+ :  
+ :  year={2014}
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty booktitle in muggeo2012dsm
+Warning--empty year in muggeo2012dsm
+Warning--empty booktitle in nardocci2014classificazione
+Warning--empty year in nardocci2014classificazione
 
 Done.
-You've used 40 entries,
+You've used 33 entries,
             4087 wiz_defined-function locations,
-            1055 strings with 16167 characters,
-and the built_in function-call counts, 29513 in all, are:
-= -- 2341
-> -- 713
-< -- 254
-+ -- 391
-- -- 122
-* -- 1368
-:= -- 4324
-add.period$ -- 85
-call.type$ -- 40
-change.case$ -- 31
-chr.to.int$ -- 588
-cite$ -- 40
-duplicate$ -- 2126
-empty$ -- 2416
-format.name$ -- 149
-if$ -- 6923
+            1012 strings with 14161 characters,
+and the built_in function-call counts, 21324 in all, are:
+= -- 1692
+> -- 481
+< -- 166
++ -- 261
+- -- 84
+* -- 959
+:= -- 3227
+add.period$ -- 64
+call.type$ -- 33
+change.case$ -- 24
+chr.to.int$ -- 372
+cite$ -- 37
+duplicate$ -- 1589
+empty$ -- 1783
+format.name$ -- 103
+if$ -- 4968
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 380
-newline$ -- 143
-num.names$ -- 37
-pop$ -- 884
+int.to.str$ -- 33
+missing$ -- 286
+newline$ -- 122
+num.names$ -- 30
+pop$ -- 673
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2293
+skip$ -- 1673
 stack$ -- 0
-substring$ -- 1417
-swap$ -- 1731
-text.length$ -- 58
+substring$ -- 906
+swap$ -- 1226
+text.length$ -- 42
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 40
-warning$ -- 0
-while$ -- 142
-width$ -- 42
-write$ -- 387
-(There was 1 error message)
+type$ -- 33
+warning$ -- 4
+while$ -- 99
+width$ -- 35
+write$ -- 311
+(There were 2 error messages)

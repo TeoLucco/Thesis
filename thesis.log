@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.24)  14 FEB 2018 02:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.24)  14 FEB 2018 19:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1719,18 +1719,22 @@ Chapter 2.
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
+Underfull \hbox (badness 10000) in paragraph at lines 22--25
 
  []
 
 [4]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 30.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [5]) [6]
-[7]
+)
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+ []
+
+[5]) [6] [7]
 \openout2 = `Chapter3/chapter3.aux'.
 
  (./Chapter3/chapter3.tex [8
@@ -1743,14 +1747,14 @@ Chapter 3.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-[10] [11] [12] <Chapter3/Figs/labo1.jpg, id=664, 1284.8pt x 1034.86626pt>
+[10] [11] [12] <Chapter3/Figs/labo1.jpg, id=651, 1284.8pt x 1034.86626pt>
 File: Chapter3/Figs/labo1.jpg Graphic file (type jpg)
 
 <use Chapter3/Figs/labo1.jpg>
 Package pdftex.def Info: Chapter3/Figs/labo1.jpg used on input line 65.
 (pdftex.def)             Requested size: 128.0374pt x 103.12949pt.
 
-<Chapter3/Figs/robota.jpg, id=665, 321.2pt x 240.9pt>
+<Chapter3/Figs/robota.jpg, id=652, 321.2pt x 240.9pt>
 File: Chapter3/Figs/robota.jpg Graphic file (type jpg)
 
 <use Chapter3/Figs/robota.jpg>
@@ -1761,7 +1765,7 @@ Overfull \hbox (5.33363pt too wide) in paragraph at lines 70--71
 [][] 
  []
 
-<Chapter3/Figs/kaspar.jpg, id=666, 1284.8pt x 722.7pt>
+<Chapter3/Figs/kaspar.jpg, id=653, 1284.8pt x 722.7pt>
 File: Chapter3/Figs/kaspar.jpg Graphic file (type jpg)
 
 <use Chapter3/Figs/kaspar.jpg>
@@ -1769,33 +1773,31 @@ Package pdftex.def Info: Chapter3/Figs/kaspar.jpg used on input line 75.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
  [13 <./Chapter3/Figs/labo1.jpg> <./Chapter3/Figs/robota.jpg> <./Chapter3/Figs/
 kaspar.jpg>] [14]
-<Chapter3/Figs/tito.jpg, id=689, 100.375pt x 158.5925pt>
+<Chapter3/Figs/tito.jpg, id=677, 100.375pt x 158.5925pt>
 File: Chapter3/Figs/tito.jpg Graphic file (type jpg)
 
 <use Chapter3/Figs/tito.jpg>
 Package pdftex.def Info: Chapter3/Figs/tito.jpg used on input line 103.
 (pdftex.def)             Requested size: 174.98177pt x 276.51251pt.
  [15 <./Chapter3/Figs/tito.jpg>]
-<Chapter3/Figs/keepon.jpg, id=697, 356.33125pt x 356.33125pt>
+<Chapter3/Figs/keepon.jpg, id=685, 356.33125pt x 356.33125pt>
 File: Chapter3/Figs/keepon.jpg Graphic file (type jpg)
 
 <use Chapter3/Figs/keepon.jpg>
 Package pdftex.def Info: Chapter3/Figs/keepon.jpg used on input line 115.
 (pdftex.def)             Requested size: 174.98177pt x 174.97899pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16] <Chapter3/Figs/prevTeo.jpg, id=703, 684.5575pt x 293.095pt>
+ [16 <./Chapter3/Figs/keepon.jpg>] [17]
+<Chapter3/Figs/prevTeo.jpg, id=696, 684.5575pt x 293.095pt>
 File: Chapter3/Figs/prevTeo.jpg Graphic file (type jpg)
 
 <use Chapter3/Figs/prevTeo.jpg>
-Package pdftex.def Info: Chapter3/Figs/prevTeo.jpg used on input line 132.
+Package pdftex.def Info: Chapter3/Figs/prevTeo.jpg used on input line 138.
 (pdftex.def)             Requested size: 393.71233pt x 168.57303pt.
-) [17 <./Chapter3/Figs/keepon.jpg>] [18 <./Chapter3/Figs/prevTeo.jpg>] [19]
+) [18] [19 <./Chapter3/Figs/prevTeo.jpg>]
 \openout2 = `Chapter4/chapter4.aux'.
 
- (./Chapter4/chapter4.tex [20
+
+(./Chapter4/chapter4.tex [20
 
 
 
@@ -1810,22 +1812,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--23
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-[23] [24] [25]) [26]
+[23] [24] [25])
+Underfull \vbox (badness 2564) has occurred while \output is active []
+
+ [26]
+[27]
 \openout2 = `Chapter5/chapter5.aux'.
 
- (./Chapter5/chapter5.tex
+ (./Chapter5/chapter5.tex [28
+
+
+
+]
 Chapter 5.
-<Chapter5/Figs/TeoG2_bb.jpg, id=755, 612.689pt x 457.71pt>
+<Chapter5/Figs/TeoG2_bb.jpg, id=754, 612.689pt x 457.71pt>
 File: Chapter5/Figs/TeoG2_bb.jpg Graphic file (type jpg)
 
 <use Chapter5/Figs/TeoG2_bb.jpg>
 Package pdftex.def Info: Chapter5/Figs/TeoG2_bb.jpg used on input line 31.
 (pdftex.def)             Requested size: 437.46112pt x 326.79922pt.
- [27
-
-
-
-]
+ [29]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1839,15 +1845,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--54
 
  []
 
-[28] [29 <./Chapter5/Figs/TeoG2_bb.jpg>]
-<Chapter5/Figs/hc05-1.jpg, id=777, 225.84375pt x 225.84375pt>
+[30] [31 <./Chapter5/Figs/TeoG2_bb.jpg>]
+<Chapter5/Figs/hc05-1.jpg, id=775, 225.84375pt x 225.84375pt>
 File: Chapter5/Figs/hc05-1.jpg Graphic file (type jpg)
 
 <use Chapter5/Figs/hc05-1.jpg>
 Package pdftex.def Info: Chapter5/Figs/hc05-1.jpg used on input line 94.
 (pdftex.def)             Requested size: 113.81102pt x 113.81412pt.
 
-<Chapter5/Figs/hc05-2.jpg, id=778, 602.25pt x 602.25pt>
+<Chapter5/Figs/hc05-2.jpg, id=776, 602.25pt x 602.25pt>
 File: Chapter5/Figs/hc05-2.jpg Graphic file (type jpg)
 
 <use Chapter5/Figs/hc05-2.jpg>
@@ -1866,25 +1872,25 @@ Overfull \hbox (42.59433pt too wide) in paragraph at lines 111--138
  [][] 
  []
 
-[30]
+[32]
 Underfull \vbox (badness 1845) has occurred while \output is active []
 
- [31 <./Chapter5/Figs/hc05-1.jpg> <./Chapter5/Figs/hc05-2.jpg>] [32]
-<Chapter5/Figs/omniwheel.jpg, id=795, 331.2375pt x 285.065pt>
+ [33 <./Chapter5/Figs/hc05-1.jpg> <./Chapter5/Figs/hc05-2.jpg>] [34]
+<Chapter5/Figs/omniwheel.jpg, id=794, 331.2375pt x 285.065pt>
 File: Chapter5/Figs/omniwheel.jpg Graphic file (type jpg)
 
 <use Chapter5/Figs/omniwheel.jpg>
 Package pdftex.def Info: Chapter5/Figs/omniwheel.jpg used on input line 166.
 (pdftex.def)             Requested size: 131.23967pt x 112.94524pt.
 
-<Chapter5/Figs/gearmotor.jpg, id=797, 451.6875pt x 361.35pt>
+<Chapter5/Figs/gearmotor.jpg, id=796, 451.6875pt x 361.35pt>
 File: Chapter5/Figs/gearmotor.jpg Graphic file (type jpg)
 
 <use Chapter5/Figs/gearmotor.jpg>
 Package pdftex.def Info: Chapter5/Figs/gearmotor.jpg used on input line 175.
 (pdftex.def)             Requested size: 218.73056pt x 174.98988pt.
 
-<Chapter5/Figs/encoder.jpg, id=799, 887.315pt x 285.065pt>
+<Chapter5/Figs/encoder.jpg, id=798, 887.315pt x 285.065pt>
 File: Chapter5/Figs/encoder.jpg Graphic file (type jpg)
 
 <use Chapter5/Figs/encoder.jpg>
@@ -1894,20 +1900,20 @@ Package pdftex.def Info: Chapter5/Figs/encoder.jpg used on input line 182.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33 <./Chapter5/Figs/omniwheel.jpg>] [34 <./Chapter5/Figs/gearmotor.jpg> <./Cha
+[35 <./Chapter5/Figs/omniwheel.jpg>] [36 <./Chapter5/Figs/gearmotor.jpg> <./Cha
 pter5/Figs/encoder.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
-<Chapter5/Figs/dualmc21.png, id=815, 144.54pt x 72.9927pt>
+<Chapter5/Figs/dualmc21.png, id=813, 144.54pt x 72.9927pt>
 File: Chapter5/Figs/dualmc21.png Graphic file (type png)
 
 <use Chapter5/Figs/dualmc21.png>
 Package pdftex.def Info: Chapter5/Figs/dualmc21.png used on input line 201.
 (pdftex.def)             Requested size: 262.47934pt x 132.55954pt.
- [35 <./Chapter5/Figs/dualmc21.png>]
-<Chapter5/Figs/hc-sr04.jpg, id=823, 803.0pt x 803.0pt>
+ [37 <./Chapter5/Figs/dualmc21.png>]
+<Chapter5/Figs/hc-sr04.jpg, id=821, 803.0pt x 803.0pt>
 File: Chapter5/Figs/hc-sr04.jpg Graphic file (type jpg)
 
 <use Chapter5/Figs/hc-sr04.jpg>
@@ -1917,15 +1923,15 @@ Package pdftex.def Info: Chapter5/Figs/hc-sr04.jpg used on input line 221.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36] [37 <./Chapter5/Figs/hc-sr04.jpg>]
-<Chapter5/Figs/dfplayer.png, id=833, 482.55281pt x 285.31593pt>
+[38] [39 <./Chapter5/Figs/hc-sr04.jpg>]
+<Chapter5/Figs/dfplayer.png, id=832, 482.55281pt x 285.31593pt>
 File: Chapter5/Figs/dfplayer.png Graphic file (type png)
 
 <use Chapter5/Figs/dfplayer.png>
 Package pdftex.def Info: Chapter5/Figs/dfplayer.png used on input line 243.
 (pdftex.def)             Requested size: 262.47934pt x 155.20023pt.
 
-<Chapter5/Figs/arduinoMicroSchema_bb.jpg, id=836, 127.677pt x 176.66pt>
+<Chapter5/Figs/arduinoMicroSchema_bb.jpg, id=835, 127.677pt x 176.66pt>
 File: Chapter5/Figs/arduinoMicroSchema_bb.jpg Graphic file (type jpg)
 
 <use Chapter5/Figs/arduinoMicroSchema_bb.jpg>
@@ -1936,19 +1942,19 @@ line 256.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapter5/Figs/CapSense.jpg, id=837, 346.29375pt x 321.2pt>
+<Chapter5/Figs/CapSense.jpg, id=836, 346.29375pt x 321.2pt>
 File: Chapter5/Figs/CapSense.jpg Graphic file (type jpg)
 
 <use Chapter5/Figs/CapSense.jpg>
 Package pdftex.def Info: Chapter5/Figs/CapSense.jpg used on input line 265.
 (pdftex.def)             Requested size: 131.23967pt x 121.72888pt.
- [38 <./Chapter5/Figs/dfplayer.png>] [39 <./Chapter5/Figs/arduinoMicroSchema_bb
+ [40 <./Chapter5/Figs/dfplayer.png>] [41 <./Chapter5/Figs/arduinoMicroSchema_bb
 .jpg> <./Chapter5/Figs/CapSense.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-<Chapter5/Figs/mpu6050.jpg, id=849, 367.3725pt x 481.8pt>
+<Chapter5/Figs/mpu6050.jpg, id=847, 367.3725pt x 481.8pt>
 File: Chapter5/Figs/mpu6050.jpg Graphic file (type jpg)
 
 <use Chapter5/Figs/mpu6050.jpg>
@@ -1957,8 +1963,8 @@ Package pdftex.def Info: Chapter5/Figs/mpu6050.jpg used on input line 292.
 
 Underfull \vbox (badness 1038) has occurred while \output is active []
 
- [40 <./Chapter5/Figs/mpu6050.jpg>]
-<Chapter5/Figs/soundSensor.png, id=857, 121.545pt x 93.951pt>
+ [42 <./Chapter5/Figs/mpu6050.jpg>]
+<Chapter5/Figs/soundSensor.png, id=855, 121.545pt x 93.951pt>
 File: Chapter5/Figs/soundSensor.png Graphic file (type png)
 
 <use Chapter5/Figs/soundSensor.png>
@@ -1967,11 +1973,11 @@ Package pdftex.def Info: Chapter5/Figs/soundSensor.png used on input line 309.
 
 Underfull \vbox (badness 6658) has occurred while \output is active []
 
- [41 <./Chapter5/Figs/soundSensor.png>]
+ [43 <./Chapter5/Figs/soundSensor.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
-<Chapter5/Figs/voltage-divider.png, id=871, 321.2pt x 264.99pt>
+ [44]
+<Chapter5/Figs/voltage-divider.png, id=869, 321.2pt x 264.99pt>
 File: Chapter5/Figs/voltage-divider.png Graphic file (type png)
 
 <use Chapter5/Figs/voltage-divider.png>
@@ -1982,42 +1988,44 @@ Package pdftex.def Info: Chapter5/Figs/voltage-divider.png used on input line 3
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [43] [44 <./Chapter5/Figs/voltage-divider.png>]
+) [45] [46 <./Chapter5/Figs/voltage-divider.png>]
 \openout2 = `Chapter6/chapter6.aux'.
 
  (./Chapter6/chapter6.tex
 Chapter 6.
-) [45
+) [47
 
 
 
 ]
 \openout2 = `Chapter7/chapter7.aux'.
 
- (./Chapter7/chapter7.tex [46
+ (./Chapter7/chapter7.tex [48
 
 
 
 ]
 Chapter 7.
-) [47]
+) [49]
 \openout2 = `Chapter8/chapter8.aux'.
 
- (./Chapter8/chapter8.tex) [48
+ (./Chapter8/chapter8.tex) [50
 
 
 
 
-] (./thesis.bbl [49
+] (./thesis.bbl [51
 
-] [50]
-Underfull \hbox (badness 7963) in paragraph at lines 225--227
+] [52]
+Underfull \hbox (badness 7963) in paragraph at lines 181--183
 []\T1/ptm/m/n/12 (+20) P. Bad-ger, \T1/ptm/m/it/12 (+20) Ca-pac-i-tive Sens-ing
  Li-brary\T1/ptm/m/n/12 (+20) , [][]$https : / / playground . arduino . cc / Ma
 in /
  []
 
-[51]) [52]
+) [53] [54
+
+]
 No file thesis.ind.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
@@ -2029,20 +2037,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BBB245B82175431AD61ECC215DBCA028;14658.
+(rerunfilecheck)             Checksum: CBD22200472E87265DA9CA2D5324D228;14743.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26241 strings out of 493029
- 458769 string characters out of 6136233
- 520738 words of memory out of 5000000
- 28847 multiletter control sequences out of 15000+600000
- 79760 words of font info for 268 fonts, out of 8000000 for 9000
+ 26209 strings out of 493029
+ 458036 string characters out of 6136233
+ 520626 words of memory out of 5000000
+ 28826 multiletter control sequences out of 15000+600000
+ 79310 words of font info for 264 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,17n,92p,10377b,1041s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,17n,92p,10377b,987s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
@@ -2050,10 +2058,10 @@ fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (68 pages, 2397277 bytes).
+Output written on thesis.pdf (70 pages, 2398093 bytes).
 PDF statistics:
- 1016 PDF objects out of 1200 (max. 8388607)
- 899 compressed objects within 9 object streams
- 230 named destinations out of 1000 (max. 500000)
+ 1010 PDF objects out of 1200 (max. 8388607)
+ 891 compressed objects within 9 object streams
+ 225 named destinations out of 1000 (max. 500000)
  55074 words of extra memory for PDF output out of 61914 (max. 10000000)
 

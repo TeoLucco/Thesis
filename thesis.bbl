@@ -21,11 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{stotz2000epistemological}
-G.~Stotz-Ingenlath, ``Epistemological aspects of eugen bleuler's conception of
-  schizophrenia in 1911,'' \emph{Medicine, Health Care and Philosophy}, vol.~3,
-  no.~2, pp. 153--159, 2000.
-
 \bibitem{wall2007autism}
 K.~Wall, ``Autism and early years practice. a guide for early years
   professionals, teachers and parents,'' 2007.
@@ -55,6 +50,20 @@ D.~P. Howsmon, U.~Kruger, S.~Melnyk, S.~J. James, and J.~Hahn, ``Classification
   methylation,'' \emph{PLoS computational biology}, vol.~13, no.~3, p.
   e1005385, 2017.
 
+\bibitem{muggeo2012dsm}
+M.~Muggeo, ``Verso il dsm-5: Il disturbo dello spettro autistico.''
+
+\bibitem{nardocci2014classificazione}
+F.~Nardocci, ``I disturbi dello spettro autistico: evoluzioni per la
+  classificazione. relazione svolta al convegno disabilitÀ intellettive e
+  dello sviluppo quadro diagnostico e interventi efficaci.''
+
+\bibitem{ricks2010trends}
+D.~J. Ricks and M.~B. Colton, ``Trends and considerations in robot-assisted
+  autism therapy,'' in \emph{Robotics and Automation (ICRA), 2010 IEEE
+  International Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2010, pp. 4354--4359.
+
 \bibitem{strickland1997virtual}
 D.~Strickland, ``Virtual reality for the treatment of autism,'' \emph{Studies
   in health technology and informatics}, pp. 81--86, 1997.
@@ -78,59 +87,16 @@ A.~M. Piper, E.~O'Brien, M.~R. Morris, and T.~Winograd, ``Sides: a cooperative
   of the 2006 20th anniversary conference on Computer supported cooperative
   work}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2006, pp. 1--10.
 
-\bibitem{ricks2010trends}
-D.~J. Ricks and M.~B. Colton, ``Trends and considerations in robot-assisted
-  autism therapy,'' in \emph{Robotics and Automation (ICRA), 2010 IEEE
-  International Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
-  2010, pp. 4354--4359.
+\bibitem{scassellati2012robots}
+B.~Scassellati, H.~Admoni, and M.~Matari{\'c}, ``Robots for use in autism
+  research,'' \emph{Annual review of biomedical engineering}, vol.~14, pp.
+  275--294, 2012.
 
-\bibitem{costa2010promoting}
-S.~Costa, C.~Santos, F.~Soares, M.~Ferreira, and F.~Moreira, ``Promoting
-  interaction amongst autistic adolescents using robots,'' in \emph{Engineering
-  in Medicine and Biology Society (EMBC), 2010 Annual International Conference
-  of the IEEE}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2010, pp.
-  3856--3859.
-
-\bibitem{dautenhahn2003towards}
-K.~Dautenhahn, I.~Werry, T.~Salter, and R.~t. Boekhorst, ``Towards adaptive
-  autonomous robots in autism therapy: Varieties of interactions,'' in
-  \emph{Computational intelligence in robotics and automation, 2003.
-  Proceedings. 2003 IEEE international symposium on}, vol.~2.\hskip 1em plus
-  0.5em minus 0.4em\relax IEEE, 2003, pp. 577--582.
-
-\bibitem{werry2001can}
-I.~Werry, K.~Dautenhahn, B.~Ogden, and W.~Harwin, ``Can social interaction
-  skills be taught by a social agent? the role of a robotic mediator in autism
-  therapy,'' in \emph{Cognitive technology: instruments of mind}.\hskip 1em
-  plus 0.5em minus 0.4em\relax Springer, 2001, pp. 57--74.
-
-\bibitem{duquette2008exploring}
-A.~Duquette, F.~Michaud, and H.~Mercier, ``Exploring the use of a mobile robot
-  as an imitation agent with children with low-functioning autism,''
-  \emph{Autonomous Robots}, vol.~24, no.~2, pp. 147--157, 2008.
-
-\bibitem{ferrari2009therapeutic}
-E.~Ferrari, B.~Robins, and K.~Dautenhahn, ``Therapeutic and educational
-  objectives in robot assisted play for children with autism,'' in \emph{Robot
-  and Human Interactive Communication, 2009. RO-MAN 2009. The 18th IEEE
-  International Symposium on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
-  2009, pp. 108--114.
-
-\bibitem{robins2005robotic}
-B.~Robins, K.~Dautenhahn, R.~Te~Boekhorst, and A.~Billard, ``Robotic assistants
-  in therapy and education of children with autism: can a small humanoid robot
-  help encourage social interaction skills?'' \emph{Universal Access in the
-  Information Society}, vol.~4, no.~2, pp. 105--120, 2005.
-
-\bibitem{robins2004effects}
-------, ``Effects of repeated exposure to a humanoid robot on children with
-  autism,'' in \emph{Designing a more inclusive world}.\hskip 1em plus 0.5em
-  minus 0.4em\relax Springer, 2004, pp. 225--236.
-
-\bibitem{kozima2007children}
-H.~Kozima, C.~Nakagawa, and Y.~Yasuda, ``Children--robot interaction: a pilot
-  study in autism therapy,'' \emph{Progress in Brain Research}, vol. 164, pp.
-  385--400, 2007.
+\bibitem{cabibihan2013robots}
+J.-J. Cabibihan, H.~Javed, M.~Ang, and S.~M. Aljunied, ``Why robots? a survey
+  on the roles and benefits of social robots in the therapy of children with
+  autism,'' \emph{International journal of social robotics}, vol.~5, no.~4, pp.
+  593--618, 2013.
 
 \bibitem{robins2009isolation}
 B.~Robins, K.~Dautenhahn, and P.~Dickerson, ``From isolation to communication:
@@ -138,32 +104,6 @@ B.~Robins, K.~Dautenhahn, and P.~Dickerson, ``From isolation to communication:
   a minimally expressive humanoid robot,'' in \emph{Advances in Computer-Human
   Interactions, 2009. ACHI'09. Second International Conferences on}.\hskip 1em
   plus 0.5em minus 0.4em\relax IEEE, 2009, pp. 205--211.
-
-\bibitem{kozima2005interactive}
-H.~Kozima, C.~Nakagawa, and Y.~Yasuda, ``Interactive robots for
-  communication-care: A case-study in autism therapy,'' in \emph{Robot and
-  human interactive communication, 2005. ROMAN 2005. IEEE International
-  Workshop on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2005, pp.
-  341--346.
-
-\bibitem{bird2007intact}
-G.~Bird, J.~Leighton, C.~Press, and C.~Heyes, ``Intact automatic imitation of
-  human and robot actions in autism spectrum disorders,'' \emph{Proceedings of
-  the Royal Society of London B: Biological Sciences}, vol. 274, no. 1628, pp.
-  3027--3031, 2007.
-
-\bibitem{pioggia2007human}
-G.~Pioggia, M.~Sica, M.~Ferro, R.~Igliozzi, F.~Muratori, A.~Ahluwalia, and
-  D.~De~Rossi, ``Human-robot interaction in autism: Face, an android-based
-  social therapy,'' in \emph{Robot and Human interactive Communication, 2007.
-  RO-MAN 2007. The 16th IEEE International Symposium on}.\hskip 1em plus 0.5em
-  minus 0.4em\relax IEEE, 2007, pp. 605--612.
-
-\bibitem{pioggia2008exploring}
-G.~Pioggia, R.~Igliozzi, M.~L. Sica, M.~Ferro, F.~Muratori, A.~Ahluwalia, and
-  D.~De~Rossi, ``Exploring emotional and imitational android-based interactions
-  in autistic spectrum disorders,'' \emph{Journal of CyberTherapy \&
-  Rehabilitation}, vol.~1, no.~1, pp. 49--61, 2008.
 
 \bibitem{werry1999applying}
 I.~Werry and K.~Dautenhahn, ``Applying mobile robot technology to the
@@ -199,9 +139,21 @@ K.~Dautenhahn, C.~L. Nehaniv, M.~L. Walters, B.~Robins, H.~Kose-Bagci, N.~A.
   human--robot interaction research,'' \emph{Applied Bionics and Biomechanics},
   vol.~6, no. 3-4, pp. 369--397, 2009.
 
+\bibitem{duquette2008exploring}
+A.~Duquette, F.~Michaud, and H.~Mercier, ``Exploring the use of a mobile robot
+  as an imitation agent with children with low-functioning autism,''
+  \emph{Autonomous Robots}, vol.~24, no.~2, pp. 147--157, 2008.
+
 \bibitem{kozima2009keepon}
 H.~Kozima, M.~P. Michalowski, and C.~Nakagawa, ``Keepon,'' \emph{International
   Journal of Social Robotics}, vol.~1, no.~1, pp. 3--18, 2009.
+
+\bibitem{bertel2013peers}
+L.~B. Bertel and D.~M. Rasmussen, ``Peers at play: A case study on persuasive
+  educational and entertainment robotics in autism education,'' in
+  \emph{Proceedings of the International Workshop on EuroPLOT Persuasive
+  Technology for Learning, Education, and Teaching IWEPLET}, 2013, pp.
+  161--168.
 
 \bibitem{arduino:intro}
 \emph{Arduino Introduction},
@@ -214,12 +166,16 @@ J.~Lahart, ``Taking an open-source approach to hardware,'' \emph{Wall Street
 \bibitem{arduino:mega}
 \emph{Arduino Mega}, \url{https://store.arduino.cc/arduino-mega-2560-rev3}.
 
-\bibitem{arduino:nano}
-\emph{Arduino Nano}, \url{https://store.arduino.cc/arduino-nano}.
+\bibitem{encoders}
+Pololu, \emph{30:1 Metal Gearmotor 37Dx68L mm with 64 CPR Encoder},
+  \url{https://www.pololu.com/product/2823}.
 
 \bibitem{hcsr04:datasheet}
 elecFreaks, \emph{ULTRASONIC SENSOR MODULE (HC SR-04)},
   \url{http://www.micropik.com/PDF/HCSR04.pdf}.
+
+\bibitem{arduino:nano}
+\emph{Arduino Nano}, \url{https://store.arduino.cc/arduino-nano}.
 
 \bibitem{CapSenseLib}
 P.~Badger, \emph{Capacitive Sensing Library},
@@ -228,10 +184,6 @@ P.~Badger, \emph{Capacitive Sensing Library},
 \bibitem{MPU6050}
 I.~Inc, \emph{MPU-6000 and MPU-6050 Product Specification Revision 3.4},
   \url{https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf}.
-
-\bibitem{encoders}
-Pololu, \emph{30:1 Metal Gearmotor 37Dx68L mm with 64 CPR Encoder},
-  \url{https://www.pololu.com/product/2823}.
 
 \bibitem{schiller2010automated}
 B.~Schiller, \emph{The automated lighting programmer's handbook}.\hskip 1em

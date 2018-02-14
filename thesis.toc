@@ -19,81 +19,81 @@
 \contentsline {section}{\numberline {3.1}Social Robots and Children with ASD}{9}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Design Features}{10}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Target Behaviors}{11}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}The Aurora Project}{13}{section.3.2}
+\contentsline {section}{\numberline {3.2}The Aurora Project}{12}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Labo-1}{13}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Robota}{14}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Kaspar}{14}{subsection.3.2.3}
 \contentsline {section}{\numberline {3.3}Tito}{15}{section.3.3}
 \contentsline {section}{\numberline {3.4}Keepon}{16}{section.3.4}
-\contentsline {section}{\numberline {3.5}Pepper}{17}{section.3.5}
-\contentsline {section}{\numberline {3.6}Paro}{17}{section.3.6}
-\contentsline {section}{\numberline {3.7}Nao \& Zeno}{17}{section.3.7}
-\contentsline {section}{\numberline {3.8}Previous Teo}{17}{section.3.8}
+\contentsline {section}{\numberline {3.5}Paro}{17}{section.3.5}
+\contentsline {section}{\numberline {3.6}Nao \& Zeno}{18}{section.3.6}
+\contentsline {section}{\numberline {3.7}Previous Teo}{18}{section.3.7}
 \contentsline {chapter}{\numberline {4}System Design}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}Design Features}{21}{section.4.1}
 \contentsline {section}{\numberline {4.2}Android Application}{23}{section.4.2}
 \contentsline {section}{\numberline {4.3}Familiarization Modality}{23}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Android Application}{24}{subsection.4.3.1}
 \contentsline {section}{\numberline {4.4}Game Modality}{25}{section.4.4}
 \contentsline {subsubsection}{Color Game}{26}{section*.15}
 \contentsline {subsubsection}{Color and Shape Game}{26}{section*.16}
 \contentsline {subsubsection}{Knowledge Game}{26}{section*.17}
-\contentsline {subsubsection}{Intruder Exclusion Game}{26}{section*.18}
-\contentsline {chapter}{\numberline {5}System Implementation}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1}Hardware Setup}{27}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Arduino Mega}{27}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Serial Devices}{28}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Sensors}{29}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Actuators}{30}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Bluetooth Connection}{30}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Bluetooth Module(HC-05)}{30}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Communication states}{31}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Basic Robot's movement control}{32}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Triskar base}{33}{subsection.5.3.1}
-\contentsline {subsubsection}{Omnidirectional Wheels}{33}{section*.23}
-\contentsline {subsubsection}{Gearmotor with Encoder}{33}{section*.25}
-\contentsline {subsubsection}{Pololu Dual MC33926 Motor Driver Shield}{35}{section*.28}
-\contentsline {subsection}{\numberline {5.3.2}PID}{36}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Inverse Kinematic}{36}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Direct Kinematic}{36}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Odometry}{36}{subsection.5.3.5}
-\contentsline {subsection}{\numberline {5.3.6}Movement Patterns}{36}{subsection.5.3.6}
-\contentsline {section}{\numberline {5.4}Sonars Management}{36}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Ultrasonic Ranging Modules(HC-SR04)}{36}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Sonars orientation}{37}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Input filtering and classification}{37}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Audio Playback}{37}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}DF Player}{37}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Speakers}{38}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Software Management}{38}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}Touch Detecting}{38}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Arduino Nano}{38}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Communication between two Arduinos}{39}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Capacitive Sensors}{39}{subsection.5.6.3}
-\contentsline {subsection}{\numberline {5.6.4}Accelerometer(MPU6050)}{40}{subsection.5.6.4}
-\contentsline {subsection}{\numberline {5.6.5}Touch classification}{41}{subsection.5.6.5}
-\contentsline {subsection}{\numberline {5.6.6}Touch reactions}{41}{subsection.5.6.6}
-\contentsline {section}{\numberline {5.7}Micro Detecting}{41}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Microphone Sensor(Sunfounder Sound Sensor)}{41}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Filtering and threshold}{42}{subsection.5.7.2}
-\contentsline {subsection}{\numberline {5.7.3}Reaction Behaviors}{42}{subsection.5.7.3}
-\contentsline {section}{\numberline {5.8}Leds Management}{42}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Non Addressable RGB LED Strip}{42}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Adafruit NeoPixel Addressable RGB LED Strip}{42}{subsection.5.8.2}
-\contentsline {subsection}{\numberline {5.8.3}Led Patterns and colors}{43}{subsection.5.8.3}
-\contentsline {section}{\numberline {5.9}Autonomous Movements}{43}{section.5.9}
-\contentsline {subsection}{\numberline {5.9.1}Exploring}{43}{subsection.5.9.1}
-\contentsline {subsection}{\numberline {5.9.2}Following}{43}{subsection.5.9.2}
-\contentsline {subsection}{\numberline {5.9.3}Mixed Movement}{43}{subsection.5.9.3}
-\contentsline {section}{\numberline {5.10}Moods Expression}{43}{section.5.10}
-\contentsline {subsection}{\numberline {5.10.1}Happy}{43}{subsection.5.10.1}
-\contentsline {subsection}{\numberline {5.10.2}Sad}{43}{subsection.5.10.2}
-\contentsline {subsection}{\numberline {5.10.3}Scared}{43}{subsection.5.10.3}
-\contentsline {subsection}{\numberline {5.10.4}Angry}{43}{subsection.5.10.4}
-\contentsline {section}{\numberline {5.11}Game Alghorithm}{43}{section.5.11}
-\contentsline {subsection}{\numberline {5.11.1}Data Collection}{43}{subsection.5.11.1}
-\contentsline {section}{\numberline {5.12}Battery Level Check}{43}{section.5.12}
-\contentsline {chapter}{\numberline {6}Experiments and Results}{45}{chapter.6}
-\contentsline {section}{\numberline {6.1}PID Tuning}{45}{section.6.1}
-\contentsline {section}{\numberline {6.2}Odometry Testing}{45}{section.6.2}
-\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{47}{chapter.7}
-\contentsline {chapter}{References}{49}{chapter*.37}
+\contentsline {subsubsection}{Intruder Exclusion Game}{27}{section*.18}
+\contentsline {chapter}{\numberline {5}System Implementation}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}Hardware Setup}{29}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Arduino Mega}{29}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Serial Devices}{30}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Sensors}{31}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Actuators}{32}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Bluetooth Connection}{32}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Bluetooth Module(HC-05)}{32}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Communication states}{33}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Basic Robot's movement control}{34}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Triskar base}{35}{subsection.5.3.1}
+\contentsline {subsubsection}{Omnidirectional Wheels}{35}{section*.23}
+\contentsline {subsubsection}{Gearmotor with Encoder}{35}{section*.25}
+\contentsline {subsubsection}{Pololu Dual MC33926 Motor Driver Shield}{37}{section*.28}
+\contentsline {subsection}{\numberline {5.3.2}PID}{38}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Inverse Kinematic}{38}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Direct Kinematic}{38}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Odometry}{38}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}Movement Patterns}{38}{subsection.5.3.6}
+\contentsline {section}{\numberline {5.4}Sonars Management}{38}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Ultrasonic Ranging Modules(HC-SR04)}{38}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Sonars orientation}{39}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Input filtering and classification}{39}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Audio Playback}{39}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}DF Player}{39}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Speakers}{40}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Software Management}{40}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Touch Detecting}{40}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Arduino Nano}{40}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Communication between two Arduinos}{41}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Capacitive Sensors}{41}{subsection.5.6.3}
+\contentsline {subsection}{\numberline {5.6.4}Accelerometer(MPU6050)}{42}{subsection.5.6.4}
+\contentsline {subsection}{\numberline {5.6.5}Touch classification}{43}{subsection.5.6.5}
+\contentsline {subsection}{\numberline {5.6.6}Touch reactions}{43}{subsection.5.6.6}
+\contentsline {section}{\numberline {5.7}Micro Detecting}{43}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Microphone Sensor(Sunfounder Sound Sensor)}{43}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Filtering and threshold}{44}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}Reaction Behaviors}{44}{subsection.5.7.3}
+\contentsline {section}{\numberline {5.8}Leds Management}{44}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Non Addressable RGB LED Strip}{44}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Adafruit NeoPixel Addressable RGB LED Strip}{44}{subsection.5.8.2}
+\contentsline {subsection}{\numberline {5.8.3}Led Patterns and colors}{45}{subsection.5.8.3}
+\contentsline {section}{\numberline {5.9}Autonomous Movements}{45}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}Exploring}{45}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}Following}{45}{subsection.5.9.2}
+\contentsline {subsection}{\numberline {5.9.3}Mixed Movement}{45}{subsection.5.9.3}
+\contentsline {section}{\numberline {5.10}Moods Expression}{45}{section.5.10}
+\contentsline {subsection}{\numberline {5.10.1}Happy}{45}{subsection.5.10.1}
+\contentsline {subsection}{\numberline {5.10.2}Sad}{45}{subsection.5.10.2}
+\contentsline {subsection}{\numberline {5.10.3}Scared}{45}{subsection.5.10.3}
+\contentsline {subsection}{\numberline {5.10.4}Angry}{45}{subsection.5.10.4}
+\contentsline {section}{\numberline {5.11}Game Alghorithm}{45}{section.5.11}
+\contentsline {subsection}{\numberline {5.11.1}Data Collection}{45}{subsection.5.11.1}
+\contentsline {section}{\numberline {5.12}Battery Level Check}{45}{section.5.12}
+\contentsline {chapter}{\numberline {6}Experiments and Results}{47}{chapter.6}
+\contentsline {section}{\numberline {6.1}PID Tuning}{47}{section.6.1}
+\contentsline {section}{\numberline {6.2}Odometry Testing}{47}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{49}{chapter.7}
+\contentsline {chapter}{References}{51}{chapter*.37}
