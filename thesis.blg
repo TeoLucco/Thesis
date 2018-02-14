@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: Dedication/dedication.aux
+A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
+A level-1 auxiliary file: Abstract/abstract.aux
+A level-1 auxiliary file: Chapter1/chapter1.aux
+A level-1 auxiliary file: Chapter2/chapter2.aux
+A level-1 auxiliary file: Chapter3/chapter3.aux
+A level-1 auxiliary file: Chapter4/chapter4.aux
+A level-1 auxiliary file: Chapter5/chapter5.aux
+A level-1 auxiliary file: Chapter6/chapter6.aux
+A level-1 auxiliary file: Chapter7/chapter7.aux
+A level-1 auxiliary file: Chapter8/chapter8.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: References/references.bib
+Repeated entry---line 246 of file References/references.bib
+ : @incollection{werry2001can
+ :                           ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 40 entries,
+            4087 wiz_defined-function locations,
+            1055 strings with 16167 characters,
+and the built_in function-call counts, 29513 in all, are:
+= -- 2341
+> -- 713
+< -- 254
++ -- 391
+- -- 122
+* -- 1368
+:= -- 4324
+add.period$ -- 85
+call.type$ -- 40
+change.case$ -- 31
+chr.to.int$ -- 588
+cite$ -- 40
+duplicate$ -- 2126
+empty$ -- 2416
+format.name$ -- 149
+if$ -- 6923
+int.to.chr$ -- 0
+int.to.str$ -- 40
+missing$ -- 380
+newline$ -- 143
+num.names$ -- 37
+pop$ -- 884
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 2293
+stack$ -- 0
+substring$ -- 1417
+swap$ -- 1731
+text.length$ -- 58
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 40
+warning$ -- 0
+while$ -- 142
+width$ -- 42
+write$ -- 387
+(There was 1 error message)

@@ -1,0 +1,134 @@
+% !TeX spellcheck = en_US
+%*******************************************************************************
+%****************************** Fourth Chapter *********************************
+%*******************************************************************************
+\chapter{System Design}
+\label{chapter4}
+% **************************** Define Graphics Path **************************
+\ifpdf
+\graphicspath{{Chapter4/Figs/Raster/}{Chapter4/Figs/PDF/}{Chapter4/Figs/}}
+\else
+\graphicspath{{Chapter4/Figs/Vector/}{Chapter4/Figs/}}
+\fi
+
+This new Teo(see...) has been developed for "Il Sogno" association, placed in Castelnuovo di Garfagnana, Lucca. It is inspired by previous Teo, keeping similar design and functionalities. Previous Teo was created in the context of 'Polisocial', hold in Politecnico di Milano and for this reason it is composed of multiple system developed by different groups of student. This gives a large number of different function to Teo, but it also makes difficult the phases of setup and control, requiring technician continuous intervention. The aim of this Teo is to create a robot with same features but easier to set up and with a user friendly control, in order to have a durable product with all-included-pieces and functionalities that can be easily used also by non-technician people. In this chapter will be firstly presented the \textbf{design choices} with reference to \ref{designF} and the \textbf{mobile Application} useful for navigate between Teo's modalities and \textbf{functionalities}, designed in order to improve in children different \textit{target behavior} useful for the treatment(see \ref{targetBe}).
+\section{Design Features}\label{designFunct} 
+Teo is an emotional, huggable and mobile robot characterized by soft body and a rigid base. Its \textbf{appearance} reminds characters of popular cartoons: it \textit{doesn't have relation with any real body} but it still has human characteristics like feet, eyes and mouth. It is about 90cm high, so its \textit{size} is comparable to children's one, resulting so visible and, at the same time, avoiding to generate fear due to its proportions. This simple and captivating shape, besides being less expensive and easier to implement than a human-shaped one, is able to be more attractive and to help interaction for children affected by ASD, allowing them to feeling familiar and safe.\\
+Most robots developed so far interacts with children standing on a table at safe distance, avoiding that children touch, and possibly damage a robot that is usually quite expensive and delicate. Interaction with Teo, instead, is “free” and “full body”, this means that it can move in the space and it can be freely(randomly) caressed, cuddled or struck during the therapy sessions. There are 3 sonar sensors on the front of the base and one on the back. Thanks to them, Teo can detect if there is somebody or something in the environment and consequently define the movement direction. For reach its tactile features, the body is soft and equipped with a set of flexible capacitive sensors placed on the belly and on two areas of the back, one on the upper right and one on the upper left.\\
+The soft body is fixed to the rigid base via 6 automatic buttons: 2 on front, 2 on each side and 2 on the back. The external yellow part, made with fleece, can be extracted and washed or replaced if it is necessary. Teo's face can be personalized: different eyes, mouth and eyebrows can be placed thanks to velcro strips in order to compose various moods and create strong emotional impact with children. This makes Teo \textbf{adaptable} to children needs:
+a combination of patches or none can be applied based on individual children's reaction and feeling.
+On the top of the head there are 4 capacitive buttons, that can be personalized in the same way of the face, and a luminous element. The buttons are used in order to navigate the basic menu and make choices during the exercises, meanwhile the luminous element allows to give an emotional feedback of robot’s status. On the back there is an useful pocket where patches of exercises and faces can be stored.\\
+In order to reach \textbf{safety for both children and robot}, all hardware components(processor, sensors, motors and battery) are incorporated, and so hidden, in Teo's base. This avoids children to touch those components that they could damage or could injury them. Moreover, the base is designed to stay on the floor, not on a table, and this permits to Teo to freely move in the space without have fear that it falls from a table.
+The base is the most “delicate” and important part of Teo, here are contained all hardware components so, in order to avoid damages, it is protected by a rigid thermoformed case. The robot is composed by a large number of \textbf{modular hardware components}, that can be easily replaced in case of troubles. On bottom right side of the thermoformed case, looking the robot from the front, there is a little hole that allows to reach the power button. Also this element has been hidden in a safe and protected place to avoid that users switch on or off the robot, without permission or intention. The battery, also included in the base, can be easily charged unplugging it from the system and plugging it to a battery charger. When battery is low and Teo is running, it informs about the lack of energy by verbal communication, if instead the robot is turned on with battery already under the minimum level, Teo informs about the state and it cannot be utilized until it is recharged.\\ 
+
+
+\section{Android Application}
+Teo is provided with an application for Android smartphones and/or tablets that permits to connect to the robot via bluetooth technology, allowing a complete, simple and speed control. The application is used for navigate between robot's modalities, change settings, trigger different actions, override robot's autonomous movements and collect data. 
+Once the robot is turned on, it say 'Hello' and invites to choose between the two available modalities, that are:
+\begin{itemize}
+	\item Familiarization Modality
+	\item Game Modality	
+\end{itemize}
+The functionalities available during this modalities is reported in the above sections.
+	 
+
+\iffalse
+\subsubsection{Triskar}
+that permits to the robot to move in holonomic way(its possible to control each degree of freedom) 
+%\
+
+The Swedish wheel functions as a normal wheel,
+but it has little passive rollers around the
+circumference.
+-These rollers provide low resistance in another
+direction.
+-The wheels’ primary axis serves as the only actively
+powered joint.
+
+Swedish (Omni) Wheel:
+-Three degrees of freedom;
+rotation around the motorized
+wheel axis, around the rollers,
+and around the contact point.
+-45 degrees or 90 degrees types.
+
+
+- A robot is holonomic if the controllable degrees of
+freedom are equal to the total degrees of freedom.
+- If the robot is able to move in an arbitrary direction out of any
+position at any time it is called holonomic.
+- Consider a two-dimensional space; the degrees of freedom
+are the x axis, y axis, and rotation about the origin. In this
+space, a mobile base with three omnidirectional wheels in a
+triangular configuration would be considered holonomic.
+Stability of a vehicle is be guaranteed with 3 wheel
+– center of gravity is within the triangle with is formed by
+the ground contact point of the wheels.
+
+Both Omni wheels and Mecanum wheels provide traction in normal wheel movement as any other wheel would. however, what makes these wheels special are the small rollers along the wheel's edges. These wheels are designed to provide a minimum amount of friction sideways allowing the wheels to move in any direction.
+
+Omni wheels or poly wheels, similar to Mecanum wheels, are wheels with small discs around the circumference which are perpendicular to the turning direction. The effect is that the wheel can be driven with full force, but will also slide laterally with great ease. These wheels are often employed in holonomic drive systems.
+
+The best choice for a robot that requires multidirectional movement. Omni wheels are normal wheels with passive wheels (rollers) attached
+around the circumference of the center wheel.
+Omni wheels can move in any direction and exhibits low resistance when they move in any direction. The small wheels are attached in such a
+42way that the axis of the small wheels are perpendicular to the axis of the
+bigger center wheel which makes the wheel to rotate even parallel to its own
+axis.
+\fi
+
+\section{Familiarization Modality}
+\label{FamMod}
+Familiarization modality is designed for introduce the robot on first sessions and for free play. Sessions can be done involving a children, the robot and the therapist, improving \textbf{triadic interaction}. During this modality there are no limitations in children interaction: it is possible to engage children to different activities and the robot automatically reacts to determinate children actions. This feature results useful in order to improve \textbf{self-initiated interaction} and \textbf{cause-effect} of actions. After some trials, children can understand that based on their actions the robot reacts differently and this encourage them to maintain an interaction with it and to perform the right actions, with the aim to Teo acts as they want or like. Actions detected by the robot are:
+\begin{itemize}
+	\item loud noises (high volume), reacting differently if it is a very short sound or a long lasting sound. In case of prolonged noise, like scream or cry, Teo expresses fright and confusion making a backward snap. If the sound is short, like recall or whistle, it turns on itself and looks around. During the reactions, the LED emits a BLUE button light. 
+	\item touches, that are classified based on intensity and the number of capacitives touched simultaneously. The types implemented are:
+	\begin{itemize}
+		\item \textbf{PAT}: In case of caress the robot vocally expresses happiness with a verse and the LED lights up with Blue. At the third caress received, expresses even more vocally happiness.
+		\item \textbf{HUG}: In case of hug vocally expresses happiness and the led pulses with red color. A prolonged embrace starts a different audio that expresses further happiness. The embrace must touch at least 2 sensorized zones to be recognized.
+		\item \textbf{HIT}: In case of a blow, the robot escapes, vocally expressing a sound of pain, and then approaching again but slowly. During the movement the LED turns orange. At the third consecutive shot the robot escapes and makes a movement of annoyance, warning not to beat him anymore. The lights pulsate Red.
+	\end{itemize}
+	
+\end{itemize} 
+During this modality, the application can used for trigger \textbf{both 'Direct Commands' and 'High-Level Controls'}. 'Direct Commands' are simple and single commands useful for control Teo's movement, play an audio, or change settings. This type of commands require the continuous intervention of the therapist but can result useful during the first sessions, when the child has to discover the robot, for personalize the interaction based on children's needs and what enjoy him. Direct Commands, available in Familiarization Modality are:
+\begin{itemize}	
+	\item \textbf{Change settings}: it is possible to turn on/off each sensor used to trigger robot's reactions to different actions(microphone, body capacitives), or make them more or less sensitive changing the threshold. It is also possible to change the pattern and color of  LEDs, switch them off and change the volume of speakers.
+	
+	
+	\item \textbf{Robot's movement control:} the App simulates a remote controller useful for define movement direction and setting speed. Movement patterns can also be triggered. This kind of movements, that are pre-defined, help the therapist to trigger robot actions without to directly control it, and ensure that movement will be always the same, so children will became familiar to these and can learn to interpreter them.  
+	
+	\item \textbf{Play one of the available sounds}, that can be useful in order to start the interaction, saying phrases like "Hi!", "How are you?", or to entice child to have a therapist's monitored dialogue with the robot. Sentences that involve children to put an happy, sad or angry face on Teo can be useful for increase \textbf{emotional expression} capability.
+	
+\end{itemize}
+High Level Controls \textbf{make the robot autonomous} or apply at the same time more 'Direct commads'. High Level Controls available in Familiarization Modality are:
+\begin{itemize}
+		\item \textbf{Trigger the robot's mood}. This states are expressed through lights, movements and phrases and can be more expressive with the right physical face applied on the robot. Children can be engaged to try to understand the robot's mood, helping to develop \textbf{emotion recognition}. After the movement is performed, speed and led color are fixed based on the triggered mood so, moving the robot, it still express that mood.
+		The avaiable Teo's moods are:
+		\begin{itemize}
+			\item Happy
+			\item Sad
+			\item Angry
+			\item Scared
+		\end{itemize} 
+		\item \textbf{Start or Stop the available Spatial Games, that are:}
+		\begin{itemize}
+			\item \textbf{Autonomous Movement}, which makes the robot go around the environment alone, avoiding obstacles and turning at random time.
+			
+			\item \textbf{Following Movement}, which allows the robot to follow the children keeping a minimum distance, avoiding to hit him. Using sonars, the robot moves in the direction of what it sees closer to itself until it reaches the set distance. It is possible that Teo make a mistake by approaching a wall due to sonars that cannot distinguish walls from people. In case the robot stops in front of a wall, thanks to the rear sensor it is possible to "wake him up" approaching his shoulders, making him notice that there is someone behind him. At this point Teo turns and start again with the chase.
+			
+			\item \textbf{Run Away/Chase Movement}, which mix the two previus movements. In this movement, the robot turns in the environment avoiding obstacles keeping body touch sensors active. If capacitors detect a touch, Teo stops and turns to the touch direction, assuming towards the children, and starts to follow him for 10 seconds, before return to free movement. The LEDs take on rainbow coloring. With the alternation of these behaviors, \textbf{turn-taking} and \textbf{self-initiated interaction} can be upgraded. 
+		\end{itemize}
+		during spatial games, direct \textit{Robot's movement control} commands can be used in order to \textbf{override the direction defined by the running algorithm}. This makes possible to 'deviate' robot's movement if it is not correct or if it is going too far from children.		
+\end{itemize}
+
+\section{Game Modality}
+Game modality is used in order to improve \textbf{cognitive skills}, engaging the children in simple games where it is asked to touch the right figures after a robot's question. \textbf{Data collection} of number of right answer and time to answer are saved in the application, in order to evidence the improvements during the different sessions and so the effectiveness of the game. Once Game Modality has been selected, it is possible to choose the game and one of its different scenarios. Games differ each other for the type of questions are made, that should result easier in first game(Color) and harder in last one(Intruder Exclusion). In order to make the game more variable, each game has different scenarios that define which patches need to be attached on Teo, which question will be made and in which order. Once a scenario has been chosen, the application will show which patch must be attached on each Teo's capacitive. After all patches are applied, it is possible to start the game pressing a button in the application. Once game is started, the robot act completely autonomously. It makes questions and expect one or more answers, given touching the relative button. If a right question has done, Teo makes an happy movement, say "very good!" and its LEDs turn green; if instead the answer is wrong, the robot makes a movement similar to a 'no', says "wrong answer, try again!" and its LEDs turn red. At the end of both positive and negative movement Teo come back to its start position and, if the question is right and there are no further answers, makes a new question, if instead there are more answers or the answer is wrong, Teo will make again the same question. At the end of the game, based on the number of right answers that have been given at first attempt, Teo makes a different movement, an audio of congratulations and sends the data to the application.
+
+\subsubsection{Color Game}
+During Color Game, four colored buttons(red, yellow, blue, green) are applied on Teo's capacitive. The robot turns on its Leds with different colors and engage children to touch the button with same color.
+\subsubsection{Color and Shape Game}
+This game involves patch of different animals with different colors. Children are involved to touch patches of a declared color or to touch all those have the same color or the same animal. 
+\subsubsection{Knowledge Game}
+In this game children have to touch the patch asked from Teo that can make the request in a directly way, saying for example "Touch the chair", or with a indirect request, asking for example to "touch what you can eat" and expecting as answer 'ice cream' and 'sandwich'.
+\subsubsection{Intruder Exclusion Game}
+Harder question are made, involving animals, people, things and their categorization. Can be answered to touch "the animal that walks on two legs and doesn't fly", "the animal that flies", "the animal that runs" or to generically "touch the intruder".  
